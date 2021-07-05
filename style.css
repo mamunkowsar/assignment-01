@@ -33,7 +33,7 @@ nav ul li a {
 /* Intro */
 
 .intro {
-    display:flex;
+    display: flex;
     margin-top: 50px;
 }
 
@@ -74,41 +74,47 @@ nav ul li a {
 
 .intro-img {
     flex-basis: 50%;
-    
 }
+
 /* About Me */
-.about-me{
-    display:flex;
+
+.about-me {
+    display: flex;
     margin-top: 50px;
     background: url(/images/shapes/7.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 800px;
 }
-.about-me-img{
+
+.about-me-img {
     flex-basis: 50%;
-   
 }
-.about-me-img img{
+
+.about-me-img img {
     width: 450PX;
     margin: 86px 0px 0px 350px;
 }
-.about-me-des{
+
+.about-me-des {
     flex-basis: 50%;
     padding: 165px 0px 84px 84px;
 }
-.about-me-des h2{
+
+.about-me-des h2 {
     font-size: 40px;
     font-weight: 700;
     color: #707070;
 }
-.about-me-des p{
+
+.about-me-des p {
     font-family: 'Manrope', sans-serif;
     font-size: 18px;
     padding: 60px 0px 80px;
     width: 445px;
 }
-.about-me-des a{
+
+.about-me-des a {
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
@@ -118,35 +124,39 @@ nav ul li a {
     padding: 25px 45px;
     box-shadow: 0px 2px 30px #FC8F49;
 }
+
 /* Recipies */
+
 .recipie {
     /* height:860px ; */
     padding: 85px 85px;
 }
-.recipie-des{
-text-align: center;
 
+.recipie-des {
+    text-align: center;
 }
-.recipie-des h2{
+
+.recipie-des h2 {
     font-size: 36px;
     font-weight: 700;
     color: #676767;
 }
-.recipie-des p{
+
+.recipie-des p {
     font-size: 18px;
     font-weight: 400;
     color: #252525;
     width: 706px;
     margin: 0 auto;
     padding: 45px 0px;
-
 }
-.recipie-item{
+
+.recipie-item {
     display: flex;
-
 }
-.recipie-card-1{
-    height: 460px;
+
+.recipie-card-1 {
+    height: 480px;
     width: 300px;
     border-radius: 30px;
     box-shadow: 0px 0px 40px #0000008c;
@@ -154,10 +164,10 @@ text-align: center;
     text-align: center;
     margin: 0px 0px 0px 100px;
     width: 25%;
-    
 }
-.recipie-card-2{
-    height: 460px;
+
+.recipie-card-2 {
+    height: 480px;
     width: 300px;
     border-radius: 30px;
     box-shadow: 0px 0px 40px #0000008c;
@@ -165,10 +175,10 @@ text-align: center;
     text-align: center;
     width: 25%;
     margin: 0px 50px;
-    
 }
-.recipie-card-3{
-    height: 460px;
+
+.recipie-card-3 {
+    height: 480px;
     width: 300px;
     border-radius: 30px;
     box-shadow: 0px 0px 40px #0000008c;
@@ -176,35 +186,91 @@ text-align: center;
     text-align: center;
     width: 25%;
     margin: 0px 100px 0px 0px;
-    
 }
 
-.recipie-img{
-    
-    
+.recipie-img {
     padding-bottom: 50px;
 }
-.recipie-img img{
+
+.recipie-img img {
     width: 100%;
     border-radius: 20px;
 }
-.recipie-card-des{
-        text-align: left;
-        
+
+.recipie-card-des {
+    text-align: left;
 }
-.recipie-card-des h3{
+
+.recipie-card-des h3 {
     font-size: 28px;
     font-weight: 900;
     color: #18191F;
-
 }
-.recipie-card-des p{
+
+.recipie-card-des p {
     font-size: 18px;
     font-weight: 400;
     color: #18191F;
     padding: 25px 0px;
-   
-  
+}
+
+/* Testimonial */
+
+.testimonial {
+    display: flex;
+    margin-top: 50px;
+    background: url(/images/shapes/Frame\ 57.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.testimonial-img {
+    flex-basis: 50%;
+}
+
+.testimonial-img img {
+    width: 600PX;
+    margin: 86px 0px 0px 0px;
+}
+
+.testimonial-des {
+    flex-basis: 50%;
+    /* padding: 165px 100px 84px 84px; */
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.testimonial-des h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #707070;
+}
+
+.testimonial-des p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    width: 500px;
+}
+
+.quotes-left {
+    font-size: 60px;
+    font-family: monospace;
+    padding-top: 40px;
+    width: 445px;
+}
+
+.quotes-right {
+    font-size: 60px;
+    font-family: monospace;
+    padding-top: 40px;
+    text-align: right;
+    width: 445px;
+}
+
+.client-name {
+    font-size: 25px;
+    font-weight: 900;
 }
 
 /* Footer */
