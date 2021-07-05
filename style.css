@@ -93,7 +93,7 @@ nav ul li a {
 
 .about-me-img img {
     width: 450PX;
-    margin: 86px 0px 0px 350px;
+    margin: 86px 0px 0px 300px;
 }
 
 .about-me-des {
@@ -128,8 +128,9 @@ nav ul li a {
 /* Recipies */
 
 .recipie {
-    /* height:860px ; */
+   display: block;
     padding: 85px 85px;
+
 }
 
 .recipie-des {
@@ -153,6 +154,7 @@ nav ul li a {
 
 .recipie-item {
     display: flex;
+    justify-content:space-around;
 }
 
 .recipie-card-1 {
@@ -236,7 +238,7 @@ nav ul li a {
 
 .testimonial-des {
     flex-basis: 50%;
-    /* padding: 165px 100px 84px 84px; */
+   
     margin-left: 200px;
     margin-top: 200px;
 }
@@ -272,7 +274,23 @@ nav ul li a {
     font-size: 25px;
     font-weight: 900;
 }
-
+/* Counter */
+.counter-item{
+    display: flex;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    padding: 50px;
+    margin: 0px 180px;
+    justify-content:space-around;
+}
+.counter-item h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.counter-item p{
+    font-size: 16px;
+    font-weight: 400;
+}
 /* Footer */
 
 footer {
