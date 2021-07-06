@@ -38,7 +38,7 @@ nav ul li a {
 }
 
 .intro-title {
-    flex-basis: 50%;
+    width: 50%;
     padding: 165px 0px 84px 84px;
 }
 
@@ -73,7 +73,7 @@ nav ul li a {
 }
 
 .intro-img {
-    flex-basis: 50%;
+    width: 50%;
 }
 
 /* About Me */
