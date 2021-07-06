@@ -88,16 +88,16 @@ nav ul li a {
 }
 
 .about-me-img {
-    flex-basis: 50%;
+    width: 50%;
 }
 
 .about-me-img img {
     width: 450PX;
-    margin: 86px 0px 0px 300px;
+    margin: 86px 0px 0px 180px;
 }
 
 .about-me-des {
-    flex-basis: 50%;
+    width: 50%;
     padding: 165px 0px 84px 84px;
 }
 
